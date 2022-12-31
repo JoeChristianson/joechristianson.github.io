@@ -1,0 +1,186 @@
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    --mid-orange-red:#e25a06
+}
+
+body{
+    margin:0;
+}
+
+section div.light-orange-bg{
+    background:#ebad14;
+}
+
+section div.mid-orange-bg{
+    background:#f68d2e;
+}
+
+section div.red-orange-bg,.red-orange-bg{
+    background:#e25a06;
+}
+
+section div.blue-bg,.blue-bg{
+    background:#00aec7;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img,footer img{
+    margin:1rem;
+    height: 50px;
+}
+
+footer img{
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+nav a{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top:70px;
+    justify-content: center;
+    align-items: center;
+}
+main section{
+    max-width: 100vw;
+    width: 600px;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    z-index: 0;
+}
+
+.hero h1{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    color: white;
+    left:50%;
+    transform:translate(-70%,-100%);
+    font-size:4rem;
+}
+
+.buttons-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem auto;
+    margin:1.5rem auto;
+}
+
+.buttons-section button{
+    margin:.5rem;
+    padding:.4em;
+    width: 300px;
+    border-radius: 2rem;
+    color:white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+.grid-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+
+.grid div{
+    background: black;
+    width: 100%;
+    height:49vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid img{
+    width: 100%;
+    height: 100%;
+    margin:0 !important;
+}
+
+.grid div *{
+    margin: 0.5em;
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+
+.grid h2{
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+.grid h4{
+    font-size: 2.5rem;
+}
+
+.grid p{
+    font-size: 1.5rem;
+}
+
+.top-right-cell{
+    border-radius: 0 100% 0 0;
+}
+
+.bottom-left-cell{
+    border-radius: 0 0 0 100%;
+}
+
+footer{
+    border-bottom: #ebad14 solid 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form>div{
+    display: flex;
+    margin-bottom: 1em;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+form input,form textarea{
+    font-size: 1.5rem;
+}

@@ -228,3 +228,23 @@ form button{
     font-weight: bold;
     color:#e25a06;
 }
+
+@media screen and (max-width:800px) {
+    .grid h2{
+        font-size: 2rem;
+    }
+    .grid h4{
+        font-size: 1.3rem;
+    }
+    .grid p{
+        font-size: 1rem;
+    }
+    .buttons-section button{
+        font-size: 1.3rem;
+        width: 200px;
+    }
+    footer img{
+        height: 60px;
+    }
+
+}

@@ -58,6 +58,7 @@ nav a{
 }
 
 main.careers-main{
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     margin-top:70px;
@@ -188,6 +189,7 @@ footer{
 form{
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 form>div{
@@ -210,6 +212,16 @@ textarea{
     height: 400px;
     border: 1px grey solid !important;
     resize: none;
+}
+
+form button{
+    font-size: 1.5rem;
+    padding: 0.5em 2em;
+    width: min-content;
+    color: white;
+    background: #35b635;
+    border: none;
+    border-radius: 1.75rem;
 }
 
 .highlight{

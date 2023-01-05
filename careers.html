@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/other-styles/hamburger-menu.css" />
+    <script src="./assets/script.js" defer></script>
     <title>Vibe Energy Cafe</title>
   </head>
   <body>
     <header>
-      <a href="./index.html">
-        <img src="./assets/images/vibe-logo.webp" />
-      </a>
+      <img src="./assets/images/vibe-logo.webp" />
       <nav>
         <ul>
           <li>
@@ -28,6 +28,17 @@
           </li>
         </ul>
       </nav>
+      <div class="menu-container">
+        <button class="menu-button"><div class="bar"></div></button>
+        <div class="menu-dropdown">
+          <ul>
+            <li><a href="/">Menu</a></li>
+            <li><a href="./careers.html">Careers</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main class="careers-main">
       <section>
@@ -55,9 +66,9 @@
           </li>
         </ul>
         <p>
-          Do you have <span class="highlight"> GOOD ENERGY!!! </span>
+          Do you have <span class="highlight"> GOOD ENERGY!!? </span>
           Are you friendly, motivated, and hard-working? Up for a challenge?
-          Ready to grow? If so, you'll thrive on our team
+          Ready to grow? If so, you'll thrive on our team.
         </p>
       </section>
       <form>

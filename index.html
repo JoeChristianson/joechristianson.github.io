@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/other-styles/hamburger-menu.css" />
+    <script src="./assets/script.js" defer></script>
     <title>Vibe Energy Cafe</title>
   </head>
   <body>
     <header>
-      <img src="./assets/images/vibe-logo.webp" />
+      <a href="./index.html">
+        <img src="./assets/images/vibe-logo.webp" />
+
+      </a>
       <nav>
         <ul>
           <li>
@@ -26,6 +31,17 @@
           </li>
         </ul>
       </nav>
+      <div class="menu-container">
+        <button class="menu-button"><div class="bar"></div></button>
+        <div class="menu-dropdown">
+          <ul>
+            <li><a href="/">Menu</a></li>
+            <li><a href="./careers.html">Careers</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <section class="hero">
       <img src="./assets/images/hero-image.webp" />
@@ -41,35 +57,43 @@
       <div class="grid">
         <div><img src="./assets/images/Vibe-Coffee-Cups-Square.webp""></div>
         <div class="top-right-cell mid-orange-bg">
+          <div class="text-cont">
           <h2>CRAFTED</h2>
           <h4>Find your favorite drink.</h4>
           <p>
             More selection means ever settling for anything less than just what
-            you're craving
+            you're craving.
           </p>
+        </div>
         </div>
         <div><img src="./assets/images/hero-2-copy.webp" /></div>
         <div class="red-orange-bg">
-          <h2>Curated</h2>
-          <h4>pick-me-ups</h4>
-          <p>
-            Vibe is ready to ride shotgun wherever your day is taking you.
-            Coffee drinks, smoothies, teas, energy drinks and more offer the
-            boost you need to take on the day, from sunrise to mid-afternoon
-            pick-me-ups
-          </p>
+          <div class="text-cont">
+
+            <h2>Curated</h2>
+            <h4>pick-me-ups</h4>
+            <p>
+              Vibe is ready to ride shotgun wherever your day is taking you.
+              Coffee drinks, smoothies, teas, energy drinks and Wired Sodas offer the
+              boost you need to take on the day, from sunrise to mid-afternoon
+              pick-me-ups.
+            </p>
+          </div>
         </div>
         <div class="bottom-left-cell">
           <img src="./assets/images/bottom-left.jpg" />
         </div>
         <div class="blue-bg">
-          <h2>Choice</h2>
-          <h4>Flavor. Innovation.</h4>
-          <p>
-            It's about more than caffenation. It's about choice. Flavoor.
-            Innovation. We have a secret ingredient that makes everthing at Vibe
-            look, taste, and feel better.
-          </p>
+          <div class="text-cont">
+
+            <h2>Choice</h2>
+            <h4>Flavor. Innovation.</h4>
+            <p>
+              It's about more than caffenation. It's about choice. Flavoor.
+              Innovation. We have a secret ingredient that makes everthing at Vibe
+              look, taste, and feel better.
+            </p>
+          </div>
         </div>
       </div>
     </section>

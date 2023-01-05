@@ -303,10 +303,16 @@ form button{
         height: 100vw;
     }
     .grid .text-cont{
-        padding-top: 1rem;
+        padding-top: 1rem !important;
         /* width: 100%; */
     }
+    .grid .text-cont *{
+        margin-right: 1rem;
+        margin-left: 1rem;  
+    }
     .grid p {
+        margin-right: 1rem;
+        margin-left: 1rem;
         font-size: 1.3rem;
     }
     .top-right-cell{

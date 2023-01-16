@@ -151,7 +151,6 @@ p,li{
 }
 
 .grid>div{
-    background: black;
     width: 100%;
     max-width: 600px;
     max-height: 600px;
@@ -204,7 +203,8 @@ p,li{
     border-radius: 0 100% 0 0;
 }
 
-.bottom-left-cell{
+.bottom-left-cell,.bottom-left-cell>img{
+
     border-radius: 0 0 0 100%;
 }
 
@@ -257,6 +257,36 @@ form button{
     font-weight: bold;
     color:#e25a06;
 }
+
+.menu-cont h1{
+    margin-bottom: 50px;
+}
+
+.menu-cont h3{
+    font-weight: 400;
+}
+
+.menu-cont h3 .highlight{
+    font-weight: 400;
+}
+
+.menu-cont ul{
+    list-style: none;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.menu-cont li{
+    margin-bottom: .4em;
+}
+
+.map{
+    width: 600px;
+    max-width: 80vw;
+}
+
 
 
 @media screen and (max-width:925px) {
@@ -315,7 +345,7 @@ form button{
         margin-left: 1rem;
         font-size: 1.3rem;
     }
-    .top-right-cell{
+    .top-right-cell,.bottom-left-cell{
         border-radius: 0;
     }
     main.careers-main{

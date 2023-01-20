@@ -352,6 +352,8 @@ form button{
         padding-top: 0px;
         margin-top: 25px;
     }
-
+    .bottom-left-cell, .bottom-left-cell>img{
+        border-radius: 0;
+    }
 }
 

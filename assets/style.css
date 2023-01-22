@@ -287,6 +287,10 @@ form button{
     max-width: 80vw;
 }
 
+.contact-details{
+    margin-bottom: 100px;
+}
+
 
 
 @media screen and (max-width:925px) {
@@ -299,15 +303,16 @@ form button{
 
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:933px) {
     .grid h2{
-        font-size: 2rem;
+        font-size: 3vw;
     }
     .grid h4{
-        font-size: 1.3rem;
+        font-size: 2.5vw;
     }
     .grid p{
-        font-size: 1rem;
+        font-size: 2vw;  
+        margin-right:2rem;
     }
     .buttons-section button{
         font-size: 1.3rem;
@@ -323,6 +328,15 @@ form button{
     .hero h1{
         font-size: 2.5rem;
         line-height: 2rem;
+    }
+    .grid h2{
+        font-size: 8vw;
+    }
+    .grid h4{
+        font-size: 6vw;
+    }
+    .grid p{
+        font-size: 2vw;  
     }
 
     .grid{

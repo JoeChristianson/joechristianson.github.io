@@ -238,6 +238,7 @@ form input,form textarea{
     border-bottom: 1px solid grey;
     margin-top: 0.6em;
     max-width: 80vw;
+    border-radius: 0 !important;
 }
 
 textarea{

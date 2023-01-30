@@ -54,7 +54,7 @@
         </h4>
         <p>
           Want to work in a place where you can learn, laugh, be supported, be
-          yourself and reach your goals? If so, then Vibe Energy Cafe is for
+          yourself and reach your goals? If so, then Vibe Energy Caf&eacute; is for
           you. We do everything possible to earn your trust and help you
           succeed—every day, in every way. Come join the fun!
         </p>
@@ -62,11 +62,11 @@
         <ul>
           <li>Competitive pay</li>
           <li>Eligible for quarterly increases based on performance</li>
-          <li>Flexibe Schedules</li>
-          <li>Career Growth Opportunities</li>
+          <li>Flexibe schedules</li>
+          <li>Career growth opportunities</li>
           <li>Paid vacation & holidays for full-time team members</li>
           <li>
-            Medical, dental, vision, life insurance vacation & 401(k) with match
+            Medical, dental, vision, life insurance, vacation & 401(k) with match
             available for full-time team members
           </li>
         </ul>
@@ -76,14 +76,15 @@
           Ready to grow? If so, you'll thrive on our team.
         </p>
       </section>
-      <form>
+      <form action="https://formsubmit.co/jcfargond@gmail.com" method="POST">
+
         <div>
           <label>Name</label>
-          <input type="text" name="name" />
+          <input type="text" name="name" required />
         </div>
         <div>
           <label>Email</label>
-          <input type="email" name="email" />
+          <input type="email" name="email" required />
         </div>
         <div>
           <label>Subject</label>
@@ -91,8 +92,13 @@
         </div>
         <div>
           <label>Message</label>
-          <textarea placeholder="" name="message"></textarea>
+          <textarea placeholder="" name="message" required></textarea>
         </div>
+
+        <!-- This will redirect if turned on. Waiting to here if we want a thank you page.
+        <input type="hidden" name="_next" value="https://www.vibeenergy.com"> -->
+
+
         <button>Send</button>
       </form>
     </main>

@@ -264,10 +264,11 @@ form button{
 
 .menu-cont h3{
     font-weight: 400;
+    font-size: 1.3rem;
 }
 
 .menu-cont h3 .highlight{
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .menu-cont ul{
@@ -289,6 +290,9 @@ form button{
 
 .contact-details{
     margin-bottom: 100px;
+}
+.contact-cont p{
+    margin: 0.3rem;
 }
 
 

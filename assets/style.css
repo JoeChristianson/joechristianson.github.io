@@ -3,6 +3,10 @@
     --mid-orange-red:#e25a06
 }
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin:0;
 }
@@ -121,12 +125,38 @@ p,li{
 }
 
 .buttons-section{
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:700px) {
+    .buttons-section{
+        grid-template-columns: 1fr;
+    }
+    .buttons-section>.left{
+        grid-row:2;
+    }
+}
+
+.buttons-section>.middle,.buttons-section>.left{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 4rem auto;
     margin:1.5rem auto;
+}
+
+.buttons-section>.left>img{
+    width:200px;
+    margin-bottom: .3rem;
+}
+
+.buttons-section>.left button{
+    padding:.3em .8em;
+    width: unset;
 }
 
 .buttons-section button{
@@ -238,7 +268,6 @@ form input,form textarea{
     border-bottom: 1px solid grey;
     margin-top: 0.6em;
     max-width: 80vw;
-    border-radius: 0 !important;
 }
 
 textarea{
@@ -378,5 +407,31 @@ form button{
     .bottom-left-cell, .bottom-left-cell>img{
         border-radius: 0;
     }
+}
+
+.mobile-show{
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    .mobile-show{
+        display: unset;
+    }
+    .mobile-hide{
+        display: none;
+    }
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+.section-centerer{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 900px;
+    margin:auto;
+    padding:0 2rem;
 }
 

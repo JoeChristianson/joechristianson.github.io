@@ -57,11 +57,11 @@
 }
 
 .mb-2{
-    margin-bottom: 2rem;
+    margin-bottom: 2rem !important;
 }
 
 .mb-1{
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
 }
 
 .schedule-grid{

@@ -57,11 +57,19 @@
 }
 
 .mb-2{
+<<<<<<< HEAD
     margin-bottom: 2rem;
 }
 
 .mb-1{
     margin-bottom: 1rem;
+=======
+    margin-bottom: 2rem !important;
+}
+
+.mb-1{
+    margin-bottom: 1rem !important;
+>>>>>>> adc52590acff3599adf46d15dce3845aaac9899b
 }
 
 .schedule-grid{

@@ -108,6 +108,10 @@ p,li{
     position: relative;
 }
 
+.hero .blur-load{
+    height: 50.1vw;
+}
+
 .hero img{
     width: 100%;
     z-index: 0;
@@ -435,3 +439,6 @@ form button{
     padding:0 2rem;
 }
 
+.blur-load{
+    background-size: cover;
+}
